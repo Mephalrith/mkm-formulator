@@ -1,0 +1,5 @@
+const LOAD_TITLE = "LOAD_TITLE";
+
+export const STATE_ACTIONS = {
+    LOAD_TITLE: LOAD_TITLE
+};

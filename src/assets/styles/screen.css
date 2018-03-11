@@ -1,0 +1,287 @@
+.add-button {
+  background-color: #990000;
+  color: white !important;
+  font-size: 20px;
+  border: 0 solid !important;
+  padding: 0;
+  margin: 2px 1vw 5px 0;
+  min-width: 20px;
+  flex-grow: 0.5; }
+
+.remove-button {
+  background-color: #990000 !important;
+  color: white !important;
+  font-size: 20px;
+  border: 0 solid !important;
+  margin: 0 5px 0 -20px;
+  padding: 0 0 0 5px;
+  min-width: 30px !important; }
+
+.search-button {
+  background-color: #990000;
+  color: white !important;
+  font-size: 20px;
+  border: 0 solid !important;
+  padding: 0;
+  margin: 2px 1vw 5px 0;
+  min-width: 20px;
+  flex-grow: 0.05; }
+
+.inout-override {
+  width: 100%;
+  font-size: 9pt;
+  z-index: -1; }
+
+.name-inout-header {
+  width: 15vw;
+  cursor: pointer; }
+
+.initials-inout-header {
+  width: 1vw;
+  cursor: pointer; }
+
+.outTime-inout-header {
+  width: 2vw;
+  cursor: pointer; }
+
+.inTime-inout-header {
+  width: 2vw;
+  cursor: pointer; }
+
+.notes-inout-header {
+  width: 15vw; }
+
+.fieldBag-inout-header {
+  width: 1vw; }
+
+.vehicle-inout-header {
+  width: 6vw; }
+
+.returned-inout-header {
+  padding-right: 0 !important;
+  width: 0.5vw; }
+
+.name-inout-column {
+  width: 15vw;
+  cursor: pointer; }
+
+.initials-inout-column {
+  width: 1vw; }
+
+.outTime-inout-column {
+  width: 2vw; }
+
+.inTime-inout-column {
+  width: 2vw; }
+
+.notes-inout-column {
+  width: 15vw; }
+
+.fieldBag-inout-column {
+  width: 1vw; }
+
+.vehicle-inout-column {
+  width: 6vw; }
+
+.returned-inout-column {
+  padding-right: 0 !important;
+  width: 0.5vw; }
+
+.schedule-override {
+  font-size: 9pt;
+  width: 100%;
+  z-index: -1; }
+
+.name-schedule-header {
+  width: 20vw;
+  cursor: pointer; }
+
+.initials-schedule-header {
+  width: 5vw;
+  cursor: pointer; }
+
+.startTime-schedule-header {
+  width: 10vw;
+  cursor: pointer; }
+
+.endTime-schedule-header {
+  width: 17vw;
+  cursor: pointer; }
+
+.name-schedule-column {
+  width: 20vw; }
+
+.initials-schedule-column {
+  width: 5vw; }
+
+.startTime-schedule-column {
+  width: 10vw; }
+
+.endTime-schedule-column {
+  width: 17vw; }
+
+.input-override {
+  list-style: none;
+  display: inline-flex !important;
+  align-items: center;
+  margin: -7px -5px 0 0;
+  padding: 0;
+  overflow: visible;
+  height: 55px;
+  font-size: 10pt;
+  width: 100%;
+  z-index: -1; }
+
+.name-input {
+  flex-grow: 2;
+  flex-shrink: 0;
+  margin-left: 1vw;
+  margin-right: 5px; }
+
+.initials-input {
+  width: 5vw;
+  min-width: 63px;
+  max-width: 75px;
+  flex-grow: 0.1;
+  flex-shrink: 3;
+  margin-right: 5px; }
+
+.outTime-input {
+  min-width: 65.75px;
+  max-width: 100px;
+  flex-grow: 0.2;
+  flex-shrink: 2;
+  margin-right: 5px; }
+
+.inTime-input {
+  max-width: 100px;
+  min-width: 53px;
+  flex-grow: 0.2;
+  flex-shrink: 2;
+  margin-right: 5px; }
+
+.notes-input {
+  flex-grow: 2;
+  flex-shrink: 0;
+  margin-right: 5px; }
+
+.fieldBag-input {
+  min-width: 68.5px;
+  max-width: 100px;
+  flex-grow: 0.1;
+  flex-shrink: 3;
+  margin-right: 5px; }
+
+.vehicle-input {
+  min-width: 53px;
+  max-width: 100px;
+  flex-grow: 0.1;
+  flex-shrink: 2;
+  margin-right: 5px; }
+
+.separator {
+  height: 0.25vh;
+  width: 100%;
+  background-color: #990000;
+  z-index: 1;
+  border-width: 0; }
+
+.returned-inout-checkbox {
+  width: 20px; }
+
+.header-override {
+  overflow: hidden;
+  width: 100%;
+  display: block;
+  justify-content: flex-start !important; }
+  .header-override img {
+    margin: -4.5vw -1vw -5vw -1vw;
+    z-index: 0; }
+
+.navDrawer-override {
+  background-color: #570000;
+  border: 0 solid !important;
+  height: 100vh;
+  width: 250px;
+  display: inline-block;
+  position: -webkit-sticky;
+  position: sticky; }
+
+.appBar-override {
+  display: inline-block;
+  height: 56px;
+  width: 100%;
+  min-width: 500px;
+  background-color: #990000 !important;
+  font-size: 14pt;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: white; }
+  .appBar-override div {
+    justify-content: space-between; }
+  .appBar-override p {
+    font-weight: 700; }
+  .appBar-override a {
+    font-weight: 700;
+    cursor: pointer; }
+
+.list-override span {
+  color: white !important; }
+
+.body-override {
+  width: 85vw;
+  height: 85vh;
+  overflow: auto;
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 0; }
+  .body-override p, .body-override h3 {
+    margin-left: 5px !important; }
+
+.job-input-override {
+  list-style: none;
+  display: inline-flex !important;
+  align-items: center;
+  margin: 0 -5px 0 0;
+  padding: 0;
+  overflow: visible;
+  height: 55px;
+  font-size: 12pt;
+  width: 100%;
+  z-index: -1; }
+
+.job-search-input {
+  width: 15%;
+  margin-left: 1vw;
+  margin-right: 5px;
+  min-width: 87.5px; }
+
+.job-information {
+  list-style: none;
+  display: inline-flex !important;
+  align-items: flex-start;
+  margin: 1vh 0 0 5px;
+  padding: 0;
+  overflow: visible;
+  font-size: 12pt;
+  width: 100%;
+  z-index: -1; }
+  .job-information li {
+    margin: 0 3vw 0 0; }
+  .job-information h3 {
+    color: #990000; }
+  .job-information p {
+    margin: 1vh 0 1vh 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+.tables-flex {
+  display: inline-flex;
+  justify-content: space-between; }
