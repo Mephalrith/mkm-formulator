@@ -20,7 +20,7 @@ import ScheduleBody from '../containers/schedule.container';
 
 class HomePage extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
     }
 
