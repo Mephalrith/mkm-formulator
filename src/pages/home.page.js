@@ -17,6 +17,8 @@ import InOutBody from "../containers/inOut.container";
 import logo from '../assets/mkmLogo.svg';
 import Sidebar from "react-toolbox/lib/layout/Sidebar";
 import ScheduleBody from '../containers/schedule.container';
+import EngScheduleBody from '../containers/engSchedule.container';
+import DraftScheduleBody from '../containers/draftSchedule.container';
 
 class HomePage extends Component {
 
@@ -42,7 +44,8 @@ class HomePage extends Component {
 
                 <Layout>
                     <Panel>
-                        <AppBar className='appBar-override' flat>
+                        <AppBar className='appBar-override'
+                                flat>
                             <p>{this.props.title}</p>
                             {
                                 (this.props.local.pathname.substring(1).toLowerCase().match("inoutlog")) ?
@@ -63,6 +66,8 @@ class HomePage extends Component {
                             <Route exact path={"/projectinfo"} component={ProjectInfoBody}/>
                             <Route exact path={"/forms"} component={FormsBody}/>
                             <Route exact path={"/inoutlog"} component={InOutBody}/>
+                            <Route exact path={"/engschedule"} component={EngScheduleBody}/>
+                            <Route exact path={"/draftschedule"} component={DraftScheduleBody}/>
                             <Route render={() => <div>Not Found</div>}/>
                         </Switch>
                     </Panel>

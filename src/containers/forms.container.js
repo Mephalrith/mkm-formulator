@@ -5,6 +5,9 @@ import * as StateActions from "../actions/state.actions";
 import JobNumberComponent from "../components/jobNumber.component";
 import ProjectManagerComponent from "../components/projectManager.component";
 
+// let officegen =require("officegen");
+// let fs  = require('fs');
+
 class FormsBody extends Component {
 
     constructor(props) {
@@ -16,6 +19,18 @@ class FormsBody extends Component {
         this.props.loadTitle("Forms")
     }
 
+    // startDocument = () => {
+    //     let docx = officegen.docType('docx');
+    //
+    //     let out = fs.createWriteStream('tmp/out.docx');
+    //
+    //     out.on('error', function (err) {
+    //         console.log(err);
+    //     });
+    //
+    //     docx.generate(out);
+    // };
+
     render() {
         return (
             <div className={'body-override'}>
@@ -23,6 +38,7 @@ class FormsBody extends Component {
                 <ProjectManagerComponent/>
                 <div className='separator'/>
                 <p>Forms</p>
+                {/*<button onClick={() => this.startDocument()}>Test Form</button>*/}
             </div>
         );
     }

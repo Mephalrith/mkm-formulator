@@ -215,7 +215,9 @@
   background-color: #990000 !important;
   font-size: 14pt;
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  color: white; }
+  color: white;
+  position: -webkit-sticky;
+  position: sticky; }
   .appBar-override div {
     justify-content: space-between; }
   .appBar-override p {
@@ -229,9 +231,9 @@
 
 .body-override {
   width: 85vw;
-  height: 85vh;
+  height: 100vh;
   overflow: auto;
-  display: inline-flex;
+  display: inline-block;
   flex-direction: column;
   position: absolute;
   z-index: 0; }
@@ -260,7 +262,7 @@
   list-style: none;
   display: inline-flex !important;
   align-items: flex-start;
-  margin: 1vh 0 0 5px;
+  margin: 10px 0 0 5px;
   padding: 0;
   overflow: visible;
   font-size: 12pt;
@@ -271,7 +273,7 @@
   .job-information h3 {
     color: #990000; }
   .job-information p {
-    margin: 1vh 0 1vh 0; }
+    margin: 10px 0 10px 0; }
 
 * {
   -webkit-box-sizing: border-box;

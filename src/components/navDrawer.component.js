@@ -35,6 +35,18 @@ class NavDrawerComponent extends Component {
                     onClick={() => {
                         this.props.pushRoute("/inoutlog");
                     }}/>
+                <ListItem
+                    caption='Engineering Schedule'
+                    leftIcon='straighten'
+                    onClick={() => {
+                        this.props.pushRoute("/engschedule");
+                    }}/>
+                <ListItem
+                    caption='Drafting Schedule'
+                    leftIcon='developer_board'
+                    onClick={() => {
+                        this.props.pushRoute("/draftschedule");
+                    }}/>
             </List>
         );
     }

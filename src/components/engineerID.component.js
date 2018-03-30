@@ -3,15 +3,15 @@ import {connect} from "react-redux";
 import {withRouter} from "react-router-dom";
 import Input from 'react-toolbox/lib/input/Input';
 import Button from "react-toolbox/lib/button/Button";
-import * as ProjectInfoActions from "../actions/projectInfo.actions";
+import * as EngineeringScheduleActions from "../actions/engSchedule.actions";
 
-class JobNumberComponent extends Component {
+class EngineerIDComponent extends Component {
 
     constructor(props) {
         super(props);
 
         this.state = {
-            jobNumber: '',
+            engineerID: '',
         }
     }
 
@@ -30,9 +30,9 @@ class JobNumberComponent extends Component {
             <ul className='job-input-override'>
                 <li className='job-search-input'>
                     <Input
-                        type='jobNumber'
-                        hint='Job Number'
-                        name='jobNumber'
+                        type='engineerID'
+                        hint='Engineer ID'
+                        name='engineerID'
                         value={this.state.engineerID}
                         onChange={(value) => this.handleChange('engineerID', value)}
                     />
@@ -49,11 +49,11 @@ class JobNumberComponent extends Component {
 }
 
 export default withRouter(connect((state) => ({
-        data: state.projectInfo.data,
-        selected: state.projectInfo.selected
+        data: state.engSchedule.data,
+        selected: state.engSchedule.selected
     }),
     (dispatch) => ({
-        loadConnection: (key) => dispatch(ProjectInfoActions.startConnection(key)),
-        handleSelected: (selected) => dispatch(ProjectInfoActions.setSelected(selected))
+        loadConnection: (key) => dispatch(EngineeringScheduleActions.startConnection(key)),
+        handleSelected: (selected) => dispatch(EngineeringScheduleActions.setSelected(selected))
     })
-)(JobNumberComponent))
+)(EngineerIDComponent))
