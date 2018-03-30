@@ -22,7 +22,6 @@ class ProjectInfoBody extends Component {
             <div className='body-override'>
                 <JobNumberComponent/>
                 <ProjectManagerComponent/>
-                <div className='separator'/>
                 <ProjectInfoComponent/>
             </div>
         );

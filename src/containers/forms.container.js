@@ -36,7 +36,6 @@ class FormsBody extends Component {
             <div className={'body-override'}>
                 <JobNumberComponent/>
                 <ProjectManagerComponent/>
-                <div className='separator'/>
                 <p>Forms</p>
                 {/*<button onClick={() => this.startDocument()}>Test Form</button>*/}
             </div>
